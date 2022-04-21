@@ -54,7 +54,7 @@ user	15m19.551s
 sys	0m6.414s
 </pre>
 
-You get 150 scripts (tmp-*-60.*) with the 60 hints.
+You get 150 scripts (tmp-150-60.N) with the 60 hints.
 
 <pre>
 ~/randomized_hints_Lukasiewicz# ls 
