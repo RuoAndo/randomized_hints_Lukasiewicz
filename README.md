@@ -20,27 +20,17 @@ And just type:
 # test.sh
 
 <pre>
-#./auto.sh 50 60 &
-#./auto.sh 50 55 &
-#./auto.sh 50 50 &
-
-# ./auto.sh hints_length iteration
-
 rm -rf seq*
 rm -rf tmp*
 
 rm -rf generated*
 rm -rf sos*
 
-#./auto.sh 150 30 &
-#./auto.sh 150 35 &
-#./auto.sh 150 40 &
-#./auto.sh 150 45 &
-#./auto.sh 150 50 &
-#./auto.sh 150 55 &
 ./auto.sh 150 60 & 
 wait
 </pre>
+
+# auto.sh
 
 <pre>
 #!/bin/bash
@@ -65,6 +55,8 @@ cat generated2-${1}-${2} | awk '{print $3}' > generated3-${1}-${2}
 
 cat sos2-${1}-${2} | awk '{print $3}' > sos3-${1}-${2}
 </pre>
+
+# generate.sh
 
 <pre>
 cat manyval.first > tmp-${1}-${2}
