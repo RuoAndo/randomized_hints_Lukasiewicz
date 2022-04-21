@@ -8,4 +8,13 @@ Get OTTER souce code and binary executable.
 # make 
 # make install
 
+Or
+
+# apt install otter
+
+And just type:
+
+# ./test.sh
 </pre>
+
+
