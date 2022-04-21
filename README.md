@@ -91,7 +91,7 @@ And
 ~/randomized_hints_Lukasiewicz# python plot.py generated3-150-60
 </pre>
 
-<img src="generated3-150-60.png">
+<img src="generated3-150-60.jpg">
 
 # script1: test.sh
 
