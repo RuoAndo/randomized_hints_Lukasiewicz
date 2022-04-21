@@ -5,6 +5,16 @@ An Experiment of Randomized Hints on an Axiom of Infinite-Valued Lukasiewicz Log
 https://arxiv.org/abs/2204.08512
 </pre>
 
+<pre>
+(A1) : A → (B → A) 
+(A2) : ((A → B)− > (B → C)) → (A → C) 
+(A3) : ((A → B) → B) → ((B → A) → A) 
+(A4) : (¬A → ¬B) → (B → A) (8)
+(A5) : ((A → B) → (B → A)) → (B → A) 
+
+(A1)(A2)(A3)(A4) -> (A5)
+</pre>
+
 # How it run
 <pre>
 Get OTTER souce code and binary executable.
