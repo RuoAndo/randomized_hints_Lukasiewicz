@@ -13,6 +13,7 @@ Get OTTER souce code and binary executable.
 # cd otter-3.3f/source
 # make 
 # make install
+# cp ../bin/otter .
 
 Or
 
