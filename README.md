@@ -1,6 +1,11 @@
 # randomized_hints_Lukasiewicz
 
 <pre>
+An Experiment of Randomized Hints on an Axiom of Infinite-Valued Lukasiewicz Logic
+https://arxiv.org/abs/2204.08512
+</pre>
+
+<pre>
 Get OTTER souce code and binary executable.
 
 # wget https://www.mcs.anl.gov/research/projects/AR/otter/dist33/otter-3.3f.tar.gz
