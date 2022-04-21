@@ -5,6 +5,7 @@ An Experiment of Randomized Hints on an Axiom of Infinite-Valued Lukasiewicz Log
 https://arxiv.org/abs/2204.08512
 </pre>
 
+# How it run
 <pre>
 Get OTTER souce code and binary executable.
 
@@ -20,6 +21,8 @@ Or
 And just type:
 
 # ./test.sh
+
+That's all!
 </pre>
 
 # script1: test.sh
