@@ -25,6 +25,36 @@ And just type:
 That's all!
 </pre>
 
+<pre>
+:~/randomized_hints_Lukasiewicz# time ./test.sh 
+
+-------- PROOF -------- 23396 [binary,23395.1,6.1] $ANS(thm_MV5).
+
+Search stopped by max_proofs option.
+
+clauses generated         386205
+sos size                   21861
+
+-- HEY root, WE HAVE A PROOF!! -- 34877 [binary,34876.1,6.1] $ANS(thm_MV5).
+
+Search stopped by max_proofs option.
+
+clauses generated        2860523
+sos size                   30029
+
+-------- PROOF -------- 26252 [binary,26251.1,6.1] $ANS(thm_MV5).
+
+Search stopped by max_proofs option.
+
+clauses generated         335855
+sos size                   24766
+
+real	16m36.396s
+user	16m28.887s
+sys	0m7.093s
+
+</pre>
+
 # script1: test.sh
 
 <pre>
