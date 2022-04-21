@@ -17,7 +17,7 @@ And just type:
 # ./test.sh
 </pre>
 
-# test.sh
+# script1: test.sh
 
 <pre>
 rm -rf seq*
@@ -30,7 +30,7 @@ rm -rf sos*
 wait
 </pre>
 
-# auto.sh
+# script2: auto.sh
 
 <pre>
 #!/bin/bash
@@ -56,7 +56,7 @@ cat generated2-${1}-${2} | awk '{print $3}' > generated3-${1}-${2}
 cat sos2-${1}-${2} | awk '{print $3}' > sos3-${1}-${2}
 </pre>
 
-# generate.sh
+# script3: generate.sh
 
 <pre>
 cat manyval.first > tmp-${1}-${2}
