@@ -19,7 +19,7 @@ And just type:
 
 # test.sh
 
-<per>
+<pre>
 #./auto.sh 50 60 &
 #./auto.sh 50 55 &
 #./auto.sh 50 50 &
