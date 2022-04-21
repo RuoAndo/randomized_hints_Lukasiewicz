@@ -28,32 +28,36 @@ That's all!
 <pre>
 :~/randomized_hints_Lukasiewicz# time ./test.sh 
 
--------- PROOF -------- 23396 [binary,23395.1,6.1] $ANS(thm_MV5).
+-------- PROOF -------- 30888 [binary,30887.1,6.1] $ANS(thm_MV5).
 
 Search stopped by max_proofs option.
 
-clauses generated         386205
-sos size                   21861
+clauses generated         788576
+sos size                   28482
 
--- HEY root, WE HAVE A PROOF!! -- 34877 [binary,34876.1,6.1] $ANS(thm_MV5).
-
-Search stopped by max_proofs option.
-
-clauses generated        2860523
-sos size                   30029
-
--------- PROOF -------- 26252 [binary,26251.1,6.1] $ANS(thm_MV5).
+-------- PROOF -------- 2442 [binary,2441.1,6.1] $ANS(thm_MV5).
 
 Search stopped by max_proofs option.
 
-clauses generated         335855
-sos size                   24766
+clauses generated           8352
+sos size                    2230
 
-real	16m36.396s
-user	16m28.887s
-sys	0m7.093s
+-------- PROOF -------- 6464 [binary,6463.1,6.1] $ANS(thm_MV5).
 
+Search stopped by max_proofs option.
+
+clauses generated          37510
+sos size                    6001
+
+real	15m24.567s
+user	15m19.551s
+sys	0m6.414s
 </pre>
+
+<pre>
+~/randomized_hints_Lukasiewicz# python plot.py generated3-150-60
+</pre>
+
 
 # script1: test.sh
 
