@@ -1,4 +1,4 @@
-<img src="IMG_0063.jpg">
+<img src="IMG_0063.jpg"  width="50%" and height="50%" >
 
 # randomized_hints_Lukasiewicz
 
