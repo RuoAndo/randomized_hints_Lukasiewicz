@@ -156,4 +156,38 @@ cat hints-${1}-${2} >> tmp-${1}-${2}
 echo "end_of_list." >> tmp-${1}-${2}
 </pre>
 
-
+# The most effective 30 hints
+<pre>
+list(hints).
+P(i(i(i(x,y),z),i(i(n(y),n(x)),z))).
+P(i(i(x,y),i(n(y),i(x,z)))).
+P(i(i(x,y),i(i(i(y,x),x),y))).
+P(i(i(i(x,n(i(x,y))),n(i(y,x))),y)).
+P(i(i(i(i(x,y),y),n(i(x,y))),n(y))).
+P(i(i(x,i(i(i(y,z),z),n(i(y,z)))),i(x,n(z)))).
+P(i(i(n(x),y),i(n(y),x))).
+P(i(i(x,i(n(y),n(z))),i(x,i(z,y)))).
+P(i(i(x,i(i(i(y,z),z),n(i(z,y)))),i(x,n(y)))).
+P(i(i(x,i(n(n(y)),z)),i(x,i(y,z)))).
+P(i(i(n(x),n(i(i(y,z),i(i(z,w),i(y,w))))),x)).
+P(i(x,i(i(i(y,x),i(x,y)),y))).
+P(i(i(i(n(x),i(y,n(i(y,x)))),z),z)).
+P(i(i(x,i(i(y,z),w)),i(x,i(z,w)))).
+P(i(x,i(i(y,z),i(i(x,y),z)))).
+P(i(i(x,i(i(y,n(i(y,z))),n(i(i(y,n(i(y,z))),n(z))))),i(x,z))).
+P(i(i(x,y),i(n(y),n(x)))).
+P(i(i(n(x),n(i(y,i(z,y)))),x)).
+P(i(i(i(i(x,y),i(i(z,x),y)),w),i(z,w))).
+P(i(i(i(x,n(i(x,y))),n(i(i(x,n(i(x,y))),n(y)))),y)).
+P(i(i(i(x,n(i(x,y))),n(i(i(x,n(i(x,y))),n(y)))),n(n(y)))).
+P(i(i(i(n(x),n(y)),n(y)),i(i(x,y),n(x)))).
+P(i(i(x,i(y,z)),i(x,i(i(z,w),i(y,w))))).
+P(i(i(i(x,y),z),i(n(x),z))).
+P(i(i(i(n(n(x)),y),z),i(i(x,y),z))).
+P(i(i(i(x,y),i(y,x)),i(y,x))).
+P(i(i(x,i(y,z)),i(y,i(x,z)))).
+P(i(i(x,n(i(y,z))),i(x,n(i(i(z,w),n(y)))))).
+P(i(i(i(i(x,y),y),z),i(i(i(y,x),x),z))).
+P(i(n(n(x)),x)).
+end_of_list.
+</pre>
