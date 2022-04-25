@@ -33,7 +33,6 @@ And just type:
 
 # ./test.sh
 
-That's all!
 </pre>
 
 <pre>
