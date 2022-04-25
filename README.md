@@ -1,3 +1,5 @@
+<img src="IMG_0062.JPG">
+
 # randomized_hints_Lukasiewicz
 
 <pre>
